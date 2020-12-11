@@ -1,0 +1,20 @@
+{
+  "name": "collate-json-cli",
+  "version": "0.1.0",
+  "description": "CLI to collate the contents of several JSON files and create a single file",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/davidjgoss/collate-json-cli.git"
+  },
+  "keywords": [],
+  "author": "David Goss",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/davidjgoss/collate-json-cli/issues"
+  },
+  "homepage": "https://github.com/davidjgoss/collate-json-cli#readme"
+}
