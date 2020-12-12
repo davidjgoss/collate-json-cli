@@ -1,11 +1,16 @@
 {
   "name": "collate-json-cli",
   "version": "0.1.0",
-  "description": "CLI to collate the contents of several JSON files and create a single file",
+  "description": "CLI to collate the contents of several JSON files and write an array to a single file.",
   "main": "index.js",
+  "bin": "cli.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "ava"
   },
+  "files": [
+    "cli.js",
+    "index.js"
+  ],
   "repository": {
     "type": "git",
     "url": "git+https://github.com/davidjgoss/collate-json-cli.git"
@@ -16,5 +21,14 @@
   "bugs": {
     "url": "https://github.com/davidjgoss/collate-json-cli/issues"
   },
-  "homepage": "https://github.com/davidjgoss/collate-json-cli#readme"
+  "homepage": "https://github.com/davidjgoss/collate-json-cli#readme",
+  "dependencies": {
+    "globby": "^11.0.1",
+    "load-json-file": "^6.2.0",
+    "meow": "^8.0.0",
+    "write-json-file": "^4.3.0"
+  },
+  "devDependencies": {
+    "ava": "^3.14.0"
+  }
 }
