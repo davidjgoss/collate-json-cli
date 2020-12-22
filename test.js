@@ -8,6 +8,7 @@ test("should save array of input file contents to output file", async t => {
     t.deepEqual(result, [
         {name: "Tom"},
         {name: "Dick"},
+        {name: "Bob"},
         {name: "Harry"}
     ]);
 });

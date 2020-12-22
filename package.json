@@ -25,6 +25,7 @@
   "dependencies": {
     "globby": "^11.0.1",
     "load-json-file": "^6.2.0",
+    "lodash": "^4.17.20",
     "meow": "^8.0.0",
     "write-json-file": "^4.3.0"
   },
