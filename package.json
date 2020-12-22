@@ -1,6 +1,6 @@
 {
   "name": "collate-json-cli",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "CLI to collate the contents of several JSON files and write an array to a single file.",
   "main": "index.js",
   "bin": "cli.js",
